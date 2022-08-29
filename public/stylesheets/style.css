@@ -2,10 +2,25 @@
 
 * {
   font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+body {
+  background-color: #000;
 }
 .center {
   margin-left: auto;
   margin-right: auto;
+}
+
+.centerVer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.spacer80 {
+  height: 80px;
 }
 
 /* Header Styles */
@@ -36,9 +51,11 @@ header {
   max-width: 1500px;
 }
 
+/*
 .bodyContainer {
   margin-top: 80px;
 }
+*/
 
 .headerGrid {
   display: grid;
@@ -51,7 +68,7 @@ header {
 
 .menuLink {
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .menuLink:hover {
@@ -64,9 +81,10 @@ header {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  width: 0%;
+  width: 100%;
   height: 100%;
   background: #000;
+  opacity: 0;
 }
 
 .load-container {
@@ -79,3 +97,26 @@ header {
   z-index: 10;
   pointer-events: none;
 }
+
+/* main-p1 */
+.main-p1 {
+  background-image: url("/images/B1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  height: 100vh;
+  max-height: 1000px;
+}
+
+.contentContainer{
+  padding-right: 55%;
+}
+
+.titleBanner{
+  font-size: 3.9rem;
+}
+
+.adjustText{
+  padding-right: 25%;
+}
+

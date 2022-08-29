@@ -15,14 +15,21 @@
   </div>
 
   <%- include('./partials/header.ejs') %>
-    <main data-barba="container" data-barba-namespace="home-section" class="bodyContainer center">
-      <h1 class="animate-this">
-        <%= title %>
-      </h1>
+    <main data-barba="container" data-barba-namespace="home-section">
+      <section class="bodyContainer main-p1 center centerVer">
+        <div class="contentContainer">
+          <div class="spacer80"></div>
+          <h1 class="titleBanner animate-this">
+            Build once.<br>
+            Deploy <%= title %>
+          </h1>
 
-      <p>Welcome to <%= title %>
-      </p>
+          <p class="animate-this adjustText">Flexibly and securely move your data and applications to any cloud without
+            the fear
+            of lock-in.</p>
 
+        </div>
+      </section>
 
     </main>
 </body>
