@@ -8,6 +8,7 @@
 body {
   background-color: #000;
 }
+
 .center {
   margin-left: auto;
   margin-right: auto;
@@ -17,6 +18,14 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.spacer20 {
+  height: 20px;
+}
+
+.spacer30 {
+  height: 20px;
 }
 
 .spacer80 {
@@ -108,15 +117,36 @@ header {
   max-height: 1000px;
 }
 
-.contentContainer{
+.btn-1 {
+  font-size: 16px;
+  padding: 20px 40px;
+  font-weight: 500;
+  background-color: #dd2af3;
+  border: none;
+  text-decoration: none;
+  position: absolute;
+  transition: background-color 0.5s;
+}
+
+.btn-1:hover {
+  font-size: 16px;
+  padding: 20px 40px;
+  background-color: #ad1df5;
+}
+
+.main-p2 {
+  background-color: #dd2af3;
+  height: 100vh;
+}
+
+.contentContainer {
   padding-right: 55%;
 }
 
-.titleBanner{
+.titleBanner {
   font-size: 3.9rem;
 }
 
-.adjustText{
+.adjustText {
   padding-right: 25%;
 }
-

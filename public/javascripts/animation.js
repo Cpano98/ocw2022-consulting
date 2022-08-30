@@ -28,7 +28,7 @@ function pageTransition() {
 
 function contentAnimation() {
   var tl = gsap.timeline();
-  tl.from(".animate-this", {
+  tl.from(".transUP", {
     duration: 1,
     y: 30,
     opacity: 0,
