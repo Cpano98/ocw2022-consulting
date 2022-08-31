@@ -9,27 +9,14 @@ body {
   background-color: #000;
 }
 
-.center {
-  margin-left: auto;
-  margin-right: auto;
+/* Headers */
+.titleBanner {
+  font-size: 5rem;
 }
 
-.centerVer {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.spacer20 {
-  height: 20px;
-}
-
-.spacer30 {
-  height: 20px;
-}
-
-.spacer80 {
-  height: 80px;
+h2 {
+  font-size: 1.9rem;
+  margin: 0px;
 }
 
 /* Header Styles */
@@ -39,6 +26,19 @@ header {
   position: fixed;
   top: 0px;
   width: 100%;
+}
+
+.headerBackground {
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: background 0.5s;
+}
+
+.headerBackgroundTrans {
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s;
 }
 
 #navigationMenu {
@@ -107,46 +107,64 @@ header {
   pointer-events: none;
 }
 
+/* Body */
+.completeBanner {
+  height: 100vh;
+  max-height: 1000px;
+}
+
 /* main-p1 */
 .main-p1 {
   background-image: url("/images/B1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right bottom;
-  height: 100vh;
-  max-height: 1000px;
-}
-
-.btn-1 {
-  font-size: 16px;
-  padding: 20px 40px;
-  font-weight: 500;
-  background-color: #dd2af3;
-  border: none;
-  text-decoration: none;
-  position: absolute;
-  transition: background-color 0.5s;
-}
-
-.btn-1:hover {
-  font-size: 16px;
-  padding: 20px 40px;
-  background-color: #ad1df5;
 }
 
 .main-p2 {
-  background-color: #dd2af3;
-  height: 100vh;
+  background: rgb(30, 73, 227);
+  background: linear-gradient(
+    180deg,
+    rgba(30, 73, 227, 1) 0%,
+    rgba(30, 73, 227, 0) 100%
+  );
+}
+
+.roundText {
+  color: #dd2af3;
+  border: solid #dd2af3 1px;
+  padding: 5px 10px;
+  border-radius: 50px;
+  text-align: center;
+  width: 200px;
+}
+
+.imageContainer-G1 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.img-G1 {
+  max-width: 150px;
+  filter: brightness(0) invert(1);
 }
 
 .contentContainer {
-  padding-right: 55%;
+  padding-right: 40%;
 }
 
-.titleBanner {
-  font-size: 3.9rem;
+.centerTitle {
+  text-align: center;
 }
 
 .adjustText {
   padding-right: 25%;
+}
+
+.sectionName {
+  color: #dd2af3;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
 }
