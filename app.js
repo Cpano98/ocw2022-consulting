@@ -38,9 +38,9 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-app.listen(process.env.PORT || 3001, function () {
+app.listen(process.env.PORT || 3000, function () {
   console.log("Success! Server running on port 3001");
-  console.log("Enter application on: http://localhost:3001/");
+  console.log("Enter application on: http://localhost:3000/");
 });
 
 module.exports = app;
