@@ -3,7 +3,7 @@
   padding: 15px 30px;
   font-weight: 500;
   border-radius: 10px;
-  background-color: #dd2af3;
+  background-color: #ad1df5;
   border: none;
   text-decoration: none;
   position: absolute;
@@ -11,7 +11,7 @@
 }
 
 .btn-1:hover {
-  background-color: #ad1df5;
+  background-color: #dd2af3;
 }
 
 .lastElement {
