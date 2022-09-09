@@ -23,7 +23,7 @@ router.get("/contact", function (req, res, next) {
 });
 
 router.get("/services", function (req, res, next) {
-  res.render("page5", { title: "Services" });
+  res.render("services.ejs", { title: "Services" });
 });
 
 module.exports = router;
