@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <%- include('./partials/general.ejs') %>
+
+    <!-- Primary Meta Tags -->
+    <title>HOME — Build once. Deploy anywhere.</title>
+    <meta name="title" content="HOME — Build once. Deploy anywhere.">
+    <meta name="description"
+      content="Flexibly and securely move your data and applications to any cloud without the fear of lock-in.">
+
+</head>
+
+<body data-barba="wrapper">
+
+  <div class="load-container">
+    <div class="loading-screen"></div>
+  </div>
+
+  <%- include('./partials/header.ejs') %>
+    <main data-barba="container" data-barba-namespace="home-section">
+
+
+
+      <section class="bodyContainer center completeBanner" id="services">
+        <div class="spacer100"></div>
+
+        <div class="centerTitle">
+          <p class="sectionName transUP">Services</p>
+          <h2 class="transUP">All services thinked for you</h2>
+        </div>
+        <div class="spacer80"></div>
+        <div class="cardsContainerOne">
+
+          <div class="cardV1 transUP">
+            <h3>This is a card</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi itaque tenetur consequatur ipsa, unde omnis
+              quae debitis distinctio, numquam illum soluta optio. Tempora ea architecto numquam quos perspiciatis!
+              Fuga, porro?</p>
+          </div>
+
+          <div class="cardV1 transUP">
+            <h3>This is a card</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi itaque tenetur consequatur ipsa, unde omnis
+              quae debitis distinctio, numquam illum soluta optio. Tempora ea architecto numquam quos perspiciatis!
+              Fuga, porro?</p>
+          </div>
+
+          <div class="cardV1 transUP">
+            <h3>This is a card</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi itaque tenetur consequatur ipsa, unde omnis
+              quae debitis distinctio, numquam illum soluta optio. Tempora ea architecto numquam quos perspiciatis!
+              Fuga, porro?</p>
+          </div>
+
+        </div>
+
+        <div class="spacer100"></div>
+      </section>
+
+    </main>
+</body>
+<%- include('./partials/barbaLib.ejs') %>
+  <%- include('./partials/headerScript.ejs') %>
+
+</html>

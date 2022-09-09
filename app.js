@@ -56,7 +56,7 @@ const sslServer = https.createServer({
 
 sslServer.listen(3001, function(){
   console.log("Success! Server running on port 3001");
-  console.log("Enter application on: http://localhost:3001/");
+  console.log("Enter application on: https://localhost:3001/");
   console.log("OCI public: http://129.153.93.141:3000/");
 });
 

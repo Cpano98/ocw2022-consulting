@@ -22,4 +22,8 @@ router.get("/contact", function (req, res, next) {
   res.render("page4", { title: "Contact" });
 });
 
+router.get("/services", function (req, res, next) {
+  res.render("page5", { title: "Services" });
+});
+
 module.exports = router;
