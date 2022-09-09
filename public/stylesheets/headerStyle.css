@@ -1,0 +1,74 @@
+/* Header Styles */
+header {
+  height: 80px;
+  z-index: 99;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+.headerBackground {
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: background 0.5s;
+}
+.headerBackgroundTrans {
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s;
+}
+#navigationMenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: stretch;
+  align-content: stretch;
+  gap: 30px;
+}
+.headerContainer,
+.bodyContainer {
+  padding: 0px 40px;
+  max-width: 1500px;
+}
+.headerGrid {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  align-items: center;
+}
+.menuLink {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.menuLink:hover {
+  text-decoration: underline;
+}
+
+/* Loading Screen */
+.loading-screen {
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0;
+}
+
+.load-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 10;
+  pointer-events: none;
+}

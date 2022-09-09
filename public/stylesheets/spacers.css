@@ -22,10 +22,15 @@
 }
 
 .spacer100 {
-    height: 100px;
-  }
-
+  height: 100px;
+}
 
 .spacer180 {
-    height: 180px;
-  }
+  height: 180px;
+}
+
+/* Body */
+.completeBanner {
+  height: 100vh;
+  max-height: 1000px;
+}
