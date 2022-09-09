@@ -1,6 +1,8 @@
 var createError = require('http-errors');
 var express = require('express');
+const https = require('https')
 var path = require('path');
+const fs = require('fs');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
@@ -38,7 +40,21 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+/*
 app.listen(process.env.PORT || 3001, function () {
+  console.log("Success! Server running on port 3001");
+  console.log("Enter application on: http://localhost:3001/");
+  console.log("OCI public: http://129.153.93.141:3000/");
+});
+*/
+
+const sslServer = https.createServer({
+  key: fs.readFileSync(path.join(__dirname, 'cert','key.pem')),
+  cert: fs.readFileSync(path.join(__dirname, 'cert','cert.pem'))
+
+},app);
+
+sslServer.listen(3001, function(){
   console.log("Success! Server running on port 3001");
   console.log("Enter application on: http://localhost:3001/");
   console.log("OCI public: http://129.153.93.141:3000/");
