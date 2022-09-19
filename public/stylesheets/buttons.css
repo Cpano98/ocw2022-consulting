@@ -31,3 +31,13 @@
     color: black;
     color: #fff;
 }
+
+.cardLink1{
+  color: #dd2af3;
+  text-decoration: none;
+}
+
+.cardLink1:hover{
+
+  text-decoration: underline;
+}

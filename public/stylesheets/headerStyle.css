@@ -34,6 +34,9 @@ header {
   padding: 0px 40px;
   max-width: 1500px;
 }
+.bodyContainer {
+  overflow-x: hidden;
+}
 .headerGrid {
   display: grid;
   grid-auto-flow: column;

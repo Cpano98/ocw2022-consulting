@@ -16,17 +16,33 @@
 
   <%- include('./partials/header.ejs') %>
     <main data-barba="container" data-barba-namespace="home-section">
-      <section class="bodyContainer main-p1 center centerVer">
+      <section class=" bodyContainer main-p1 center centerVer completeBanner">
         <div class="contentContainer">
-          <div class="spacer80"></div>
-          <h1 class="titleBanner animate-this">
-            Build once.<br>
-            Deploy <%= title %>
-          </h1>
+          <!-- <p class="roundText transUP">Consulting Group</p>  -->
 
-          <p class="animate-this adjustText">Flexibly and securely move your data and applications to any cloud without
-            the fear
-            of lock-in.</p>
+
+
+          <!--
+          <div  class="box transUP ex1-layer">
+            <img src="/images/3D-Test/OCW-test1-07.png" style="max-width: 250px;" alt="" class="upDown">
+          </div>
+
+          <div  class="box2 transUP ex1-layer">
+            <img src="/images/3D-Test/OCW-test1-07.png" style="max-width: 250px;" alt="" class="upDown2">
+          </div>
+          -->
+          <div id="ex1" class="container">
+            <div class="box ex1-layer">
+              <img src="/images/3D-Test/OCW-test1-07.png" style="max-width: 250px;" alt="" class="upDown2">
+            </div>
+          </div>
+
+          <div id="ex1" class="container2">
+            <div class="box ex1-layer">
+              <img src="/images/3D-Test/OCW-test1-07.png" style="max-width: 250px;" alt="" class="upDown">
+            </div>
+          </div>
+
 
         </div>
       </section>
@@ -34,5 +50,6 @@
     </main>
 </body>
 <%- include('./partials/barbaLib.ejs') %>
+  <%- include('./partials/headerScript.ejs') %>
 
 </html>
