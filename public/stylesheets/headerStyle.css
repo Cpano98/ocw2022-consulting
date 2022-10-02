@@ -24,7 +24,7 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: stretch;
   align-content: stretch;
   gap: 30px;
@@ -40,7 +40,7 @@ header {
 .headerGrid {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 6fr;
   grid-template-rows: 1fr;
   gap: 0px 0px;
   align-items: center;

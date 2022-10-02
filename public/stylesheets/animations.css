@@ -30,8 +30,6 @@
   }
 }
 
-
-
 .container,
 .container2 {
   display: flex;
@@ -40,16 +38,15 @@
 }
 
 .box {
-    position: absolute;
-  }
+  position: absolute;
+}
 
 .container {
-    transform: translatey(900px);
-    transform: translatex(460px);
-  }
+  transform: translatey(900px);
+  transform: translatex(460px);
+}
 
 .container2 {
   transform: translatey(900px);
   transform: translatex(900px);
 }
-
