@@ -32,7 +32,7 @@ header {
 .headerContainer,
 .bodyContainer {
   padding: 0px 40px;
-  max-width: 1500px;
+  max-width: 1400px;
 }
 .bodyContainer {
   overflow-x: hidden;
