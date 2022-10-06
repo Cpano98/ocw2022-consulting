@@ -1,9 +1,17 @@
 .upDown {
-  animation: float 6s ease-in-out infinite;
+  animation: float 4.5s ease-in-out infinite;
 }
 
 .upDown2 {
   animation: float2 6s ease-in-out infinite;
+}
+
+.upDown3 {
+  animation: float3 3.5s ease-in-out infinite;
+}
+
+.upDown5 {
+  animation: float5 5s ease-in-out infinite;
 }
 
 @keyframes float {
@@ -30,6 +38,30 @@
   }
 }
 
+@keyframes float3 {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(5px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes float5 {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(7px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
 .container,
 .container2 {
   display: flex;
@@ -41,12 +73,38 @@
   position: absolute;
 }
 
-.container {
-  transform: translatey(900px);
-  transform: translatex(460px);
+.ex1-layer {
+  top: 0px;
+  right: 245px;
 }
 
-.container2 {
-  transform: translatey(900px);
-  transform: translatex(900px);
+.posCard2 {
+  top: 240px;
+  right: 60px;
+}
+
+.posCard3 {
+  top: 225px;
+  right: 150px;
+}
+
+.pos3{
+  position: absolute;
+  top: -65px;
+  right: 80px;
+  z-index: -1;
+}
+
+.pos4{
+  position: absolute;
+  top: 490px;
+  right: 375px;
+  z-index: -1;
+}
+
+.pos5{
+  position: absolute;
+  top: 372px;
+  right: 474px;
+  z-index: 1;
 }
