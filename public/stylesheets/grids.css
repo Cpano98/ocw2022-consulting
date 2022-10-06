@@ -1,0 +1,77 @@
+.cardsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: ". . . .";
+  align-content: start;
+  gap: 32px;
+}
+
+.cardsGrid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 64px;
+  grid-template-areas: ". .";
+  align-items: center;
+}
+
+.cardsGrid3 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 64px;
+  grid-template-areas: ". .";
+  align-items: center;
+}
+
+.cardsGrid4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 32px;
+  grid-template-areas: ". .";
+  align-items: center;
+}
+
+.cardsTitle {
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 40px;
+  padding-right: 51px;
+  margin: 0px;
+}
+
+.card-1Title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0px;
+}
+
+.card-1Desc {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+}
+.adjustText {
+  padding-right: 25%;
+}
+
+.card-1Cont {
+  margin-bottom: 50px;
+}
+.sectionName {
+  font-weight: 500;
+  font-size: 1rem;
+}
+.cardsContainerOne {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.cardV1 {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
