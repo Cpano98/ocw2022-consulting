@@ -26,6 +26,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: Graphik-Font-Family;
+  src: url("/fonts/Graphik-Font-Family/GraphikSemibold.otf") format("opentype");
+  font-weight: 500;
+  font-display: swap;
+}
+
+
 .roundText,
 .sectionName {
   color: #dd2af3;
@@ -49,11 +57,14 @@ body {
 }
 .titleBanner {
   font-size: 5.1rem;
+  font-weight: 500;
+  line-height: 80px;
 }
 
 .headerDecription {
   font-weight: 300;
   font-size: 21px;
+  line-height: 30px;
 }
 h2 {
   font-size: 1.9rem;
@@ -94,7 +105,6 @@ h3 {
   left: 0px;
   top: 0px;
   z-index: -2;
-  opacity: 0.5;
 }
 
 .main-p2 {

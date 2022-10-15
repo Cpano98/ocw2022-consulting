@@ -1,7 +1,7 @@
 .btn-1 {
   font-size: 16px;
   padding: 12px 24px;
-  font-weight: 500;
+  font-weight: 400;
   color: #000;
   background-color: #00ffb9;
   border: none;
@@ -12,7 +12,7 @@
 .btn-5 {
   font-size: 16px;
   padding: 12px 24px;
-  font-weight: 500;
+  font-weight: 400;
   color: #000;
   background-color: #ffffff;
   border: none;
@@ -23,7 +23,7 @@
 .btn-3 {
   font-size: 16px;
   padding: 11px 24px;
-  font-weight: 500;
+  font-weight: 400;
   color: rgb(255, 255, 255);
   background-color: #00ffbb00;
   border: 1px solid #00ffb9;
@@ -35,7 +35,7 @@
 .btn-6 {
   font-size: 16px;
   padding: 11px 24px;
-  font-weight: 500;
+  font-weight: 400;
   color: rgb(255, 255, 255);
   background-color: #00ffbb00;
   border: 1px solid #ffffff;

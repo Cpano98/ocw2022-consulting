@@ -1,5 +1,5 @@
 .upDown {
-  animation: float 4.5s ease-in-out infinite;
+  animation: float 8.5s ease-in-out infinite;
 }
 
 .upDown2 {
@@ -84,27 +84,34 @@
 }
 
 .posCard3 {
-  top: 225px;
-  right: 150px;
+  top: 160px;
+  right: 198px;
 }
 
 .pos3{
   position: absolute;
-  top: -65px;
-  right: 80px;
-  z-index: -1;
+  top: 35px;
+  right: 82px;
 }
 
 .pos4{
   position: absolute;
   top: 490px;
   right: 375px;
-  z-index: -1;
+
 }
 
 .pos5{
   position: absolute;
-  top: 372px;
-  right: 474px;
+  top: 345px;
+  right: 359px;
+
+  z-index: 1;
+}
+
+.pos6{
+  position: absolute;
+  top: 56px;
+  right: 290px;
   z-index: 1;
 }
